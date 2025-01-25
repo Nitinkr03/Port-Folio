@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    background-color: #414141;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .cta {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero .cta:hover {
+    background: #e67e22;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+.profilesection{
+    display: flex;
+    justify-content: center;
+}
+
+.profileimage {
+    /* height: 50px; */
+    /* justify-content: center; */
+    width: 200px;
+    border-radius: 50%;
+}
+.aboutme{
+text-align: left;
+}
+.moreinfo{
+    padding: 5px;
+    height:30 ;
+    border: none;
+    cursor: pointer;
+    background: #f39c12;
+
+    color: #fff;
+    border-radius: 10%;
+}
+.moreinfo:hover{
+    transition: background 0.3s ease;
+    background: #e67e22;
+}
+.skillsname{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    /* list-style: none; */
+    /* gap: 20px; */
+    row-gap: 30px;
+    /* padding-bottom: 80px; */
+}
+
+.progressbar{
+    /* flex: 1; */
+    /* margin-top: -29px; */
+    background-color:aliceblue ;
+    display: block;
+    height: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+.progressbar span{
+    height: 10px;
+    float: left;
+    background-color: #e67e22;
+    position: relative;
+}
+.html{
+    border-radius: 20px;
+    position: relative;
+    flex: 1;
+    animation-name: htmlskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+.javascript{
+    border-radius: 20px;
+    position: relative;
+    flex: 1;
+    animation-name: javascriptskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+@keyframes htmlskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:67%;
+    }
+}
+@keyframes javascriptskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:90%;
+    }
+}
+.skillbox{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+
+}
+.technicalskills{
+    flex: 1;
+}
+.communicationskills{
+    flex: 1;
+}
+.skillsname{
+    text-align: left;
+    list-style: none;
+}
+.progressbar{
+    /* flex: 1; */
+    margin-top: -29px;
+    background-color:aliceblue ;
+    display: block;
+    height: 10px;
+    border-radius: 20px;
+}
+.progressbar span{
+    height: 10px;
+    float: left;
+    background-color: #e67e22;
+}
+.communication{
+    border-radius: 20px;
+    position: relative;
+    animation-name: communicationskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+@keyframes communicationskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:70%;
+    }
+}
+.teamplayer{
+    border-radius: 20px;
+    position: relative;
+    animation-name: teamplayerskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+@keyframes teamplayerskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:30%;
+    }
+}
+.problem{
+    border-radius: 20px;
+    position: relative;
+    animation-name: problemskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+@keyframes problemskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:55%;
+    }
+}
+.css{
+    border-radius: 20px;
+    position: relative;
+    animation-name: cssskill;
+     animation-duration: 2s;
+     animation-fill-mode: forwards;
+}
+@keyframes cssskill{
+    from{
+        width: 0px;
+    }
+    to{
+        width:40%;
+    }
+}
+
+
+
+
